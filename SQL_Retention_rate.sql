@@ -1,3 +1,7 @@
+/*
+Retention rate for each product in each territory
+Skills used: Union, Joins, CTE's, Aggregate Functions
+*/
 
 WITH Sales AS --merge 3 sale tables from 2015-2017
 ( 
