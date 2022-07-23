@@ -25,7 +25,8 @@ WITH CTE AS-- duplicate check
 			Country
 	FROM CTE
 	WHERE Quantity > 0 AND CustomerID IS NOT NULL AND dup_check = 1
-), --RFM ANALYSIS
+), 
+--RFM ANALYSIS
 	CTE2 AS --calculate the recency, frequency and monetary
 (
 	SELECT
